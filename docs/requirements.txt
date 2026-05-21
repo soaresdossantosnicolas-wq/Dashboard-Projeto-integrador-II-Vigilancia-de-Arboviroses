@@ -1,0 +1,27 @@
+# ══════════════════════════════════════════════════════════════════
+# Projeto Integrador II — Vigilância de Arboviroses em Cotia/SP
+# requirements.txt
+#
+# Instale com:
+#   pip install -r requirements.txt
+#
+# Versões testadas com Python 3.12.x
+# ══════════════════════════════════════════════════════════════════
+
+# ── Dashboard ─────────────────────────────────────────────────────
+dash==4.1.0
+dash-bootstrap-components==2.0.4
+
+# ── Visualização ─────────────────────────────────────────────────
+plotly==6.7.0
+
+# ── Manipulação de dados ──────────────────────────────────────────
+pandas==3.0.2
+numpy>=1.26.0
+
+# ── Leitura de arquivos ───────────────────────────────────────────
+openpyxl>=3.1.0          # leitura de .xlsx (análises futuras)
+chardet>=5.2.0            # detecção de encoding dos CSVs
+
+# ── Utilitários ───────────────────────────────────────────────────
+python-dotenv>=1.0.0      # variáveis de ambiente (configurações locais)
